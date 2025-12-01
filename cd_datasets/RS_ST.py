@@ -12,7 +12,7 @@ import cv2
 
 num_classes = 7
 ST_COLORMAP = [[255,255,255], [0,0,255], [128,128,128], [0,128,0], [0,255,0], [128,0,0], [255,0,0]]
-ST_CLASSES = ['unchanged', 'water', 'ground', 'low vegetation', 'tree', 'building', 'sports field']
+ST_CLASSES = ['unchanged', 'water', 'ground', 'low vegetation', 'tree', 'building', 'greenhouse']
 
 MEAN_A = np.array([113.40, 114.08, 116.45])
 STD_A  = np.array([48.30,  46.27,  48.14])

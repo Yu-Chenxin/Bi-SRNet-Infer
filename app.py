@@ -583,7 +583,7 @@ def create_interface():
                 import json
 
                 # API配置
-                api_url = "http://10.46.17.189:8000/v4/chat/completions"
+                api_url = "http://127.0.0.1:8000/v4/chat/completions"
 
                 # 构建消息内容
                 with open('doc/chat_material.yaml', 'r', encoding='utf-8') as f:

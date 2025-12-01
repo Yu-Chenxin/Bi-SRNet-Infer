@@ -205,12 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-checkpoints/best_checkpoint.pth
+# checkpoints/best_checkpoint.pth
 checkpoints/lm_weights/nonencoder.pth
-checkpoints/siglip2-base-patch16-38/config.json
-checkpoints/siglip2-base-patch16-38/model.safetensors
-checkpoints/siglip2-base-patch16-38/preprocessor_config.json
-checkpoints/siglip2-base-patch16-38/special_tokens_map.json
-checkpoints/siglip2-base-patch16-38/tokenizer_config.json
-checkpoints/siglip2-base-patch16-38/tokenizer.json
-checkpoints/siglip2-base-patch16-38/tokenizer.model
+checkpoints/siglip2-base-patch16-384/model.safetensors
