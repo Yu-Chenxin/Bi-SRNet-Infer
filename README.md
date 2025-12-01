@@ -100,4 +100,10 @@ python app.py
 - 如果在浏览器中打开失败，请检查端口是否被占用
 - 如要在其他机器端访问，请将localhost修改为实际IP
 
+## 特别鸣谢
 
+- RWKV架构作者[**@PENG Bo**](https://github.com/BlinkDL), 项目[**RWKV-LM**](https://github.com/BlinkDL/RWKV-LM)
+
+- Bi-SRNet模型作者[**@Lei**](https://github.com/DingLei14)，项目[**Bi-SRNet**](https://github.com/DingLei14/Bi-SRNet)
+
+- 社区开发者[**@Alic-Li**](https://github.com/Alic-Li/)，项目[**rwkv_lightning**](https://github.com/RWKV-Vibe/rwkv_lightning)
