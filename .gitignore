@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+
+checkpoints/lm_weights/*
+checkpoints/siglip2-base-patch16-38/*
+checkpoints/best_checkpoint.pth
