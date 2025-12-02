@@ -16,7 +16,7 @@ from functools import partial
 # Mod_RWKV
 from Mod_RWKV.infer.worldmodel import Worldinfer
 llm_path='./checkpoints/lm_weights/nonencoder'
-encoder_path='./checkpoints/siglip2-base-patch16-38'
+encoder_path='./checkpoints/siglip2-base-patch16-384'
 encoder_type='siglip' #[clip, whisper, siglip, speech]
 mod_rwkv_model = Worldinfer(model_path=llm_path, encoder_type=encoder_type, encoder_path=encoder_path)
 
