@@ -30,14 +30,16 @@ Bi-SRNet-Infer/
 
 ## 环境依赖
 
-- CUDA 12.6+
+- CUDA 12.6+ / ROCm 6.4+
 - Python 3.12
-- PyTorch 2.8.0+
-- Gradio 6.0+
+- PyTorch 2.8.0+ (Supports CUDA & ROCm)
 - torchvision
 - numpy
 - opencv-python
 - pillow
+- gradio
+- transformers
+- ninja
 
 ## 安装说明
 
