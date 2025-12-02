@@ -307,7 +307,7 @@ def create_interface():
                 change_options.append(f"{RS.ST_CLASSES[i]}->{RS.ST_CLASSES[j]}")
     
     # 创建界面
-    with gr.Blocks(title="Bi-SRNet 变化检测", theme=gr.themes.Soft()) as demo:
+    with gr.Blocks(title="Bi-SRNet 变化检测") as demo:
         demo.queue()
         with gr.Tab("图像变化检测"):
             gr.Markdown("""
@@ -564,7 +564,7 @@ def create_interface():
                         height="60vh",
                         label="对话记录",
                         elem_id="chatbot-container",
-                        type="messages",
+                        # type="messages",
                         render_markdown=True
                     )       
                     with gr.Row():
@@ -717,4 +717,4 @@ def create_interface():
 # 主函数
 if __name__ == "__main__":
     interface = create_interface()
-    interface.launch(server_name="0.0.0.0", server_port=7860, show_api=False)
+    interface.launch(server_name="0.0.0.0", server_port=7860,theme=gr.themes.Soft())

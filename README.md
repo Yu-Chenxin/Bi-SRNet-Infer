@@ -33,6 +33,7 @@ Bi-SRNet-Infer/
 - CUDA 12.6+
 - Python 3.12
 - PyTorch 2.8.0+
+- Gradio 6.0+
 - torchvision
 - numpy
 - opencv-python
